@@ -31,7 +31,7 @@ namespace FileSystem
         bool OpenFile (const char *fileName, FileType fileType);
         void CloseFile ();
         unsigned int ReadFile (char *pReadCharacterBuffer, unsigned int uNumOfCharacters);
-        unsigned int WriteFile (char *pWriteCharacterBuffer, unsigned int uNumOfCharacters);
+        unsigned int WriteFile (const char *pWriteCharacterBuffer, unsigned int uNumOfCharacters);
     };
 }
 

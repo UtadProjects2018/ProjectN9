@@ -57,7 +57,7 @@ void FileSystemUtils::FileOperationRead(const char fileName [], char *pBufferToR
     tFile.CloseFile();
 }
 
-void FileSystemUtils::FileOperationWrite(const char fileName [], int maxCharacterToWrite, char *pBufferToWrite)
+void FileSystemUtils::FileOperationWrite(const char fileName [], int maxCharacterToWrite, const char *pBufferToWrite)
 {
     FileSystem::TFile tFile;
     

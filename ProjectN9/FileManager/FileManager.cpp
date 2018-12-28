@@ -57,7 +57,7 @@ unsigned int FileSystem::TFile::ReadFile (char *pReadCharacterBuffer, unsigned i
     
 }
 
-unsigned int FileSystem::TFile::WriteFile (char *pWriteCharacterBuffer, unsigned int uNumOfCharacters)
+unsigned int FileSystem::TFile::WriteFile (const char *pWriteCharacterBuffer, unsigned int uNumOfCharacters)
 {
     return static_cast<unsigned int>(fwrite(pWriteCharacterBuffer,
                                             1,

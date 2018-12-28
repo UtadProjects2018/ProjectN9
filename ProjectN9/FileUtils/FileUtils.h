@@ -23,5 +23,5 @@ namespace FileSystemUtils
     const char *GetFileNameType(int fileType);
     FILE *GetFileObject(void *fileID);
     void FileOperationRead(const char fileName [], char *pBufferToRead, int bufferSize = 0);
-    void FileOperationWrite(const char fileName [], int maxCharacterToWrite, char *pBufferToWrite);
+    void FileOperationWrite(const char fileName [], int maxCharacterToWrite, const char *pBufferToWrite);
 }
